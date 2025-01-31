@@ -5,7 +5,7 @@ default_sni p.missiontools.app
 }
 
 p.missiontools.app:80 {
-respond "Hello, 80!"
+forward_proxy
 }
 
 :8080 {
