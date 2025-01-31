@@ -7,6 +7,11 @@ p.missiontools.app:80 {
 respond "Hello, world!"
 }
 
+p.missiontools.app:443 {
+
+respond "Hello, SSL!"
+}
+
 p.missiontools.app:8888 {
 respond "Hello, Proxy!"
 }
