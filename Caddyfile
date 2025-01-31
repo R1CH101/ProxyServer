@@ -2,7 +2,7 @@
 respond "Hello, Proxy!"
 }
 
-p.missiontools.app:8080 {
+:8080 {
 respond "Hello, Proxy2!"
 }
 
