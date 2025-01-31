@@ -3,6 +3,6 @@
 respond "Hello, world!"
 }
 
-:8888 {
+p.missiontools.app:8888 {
 respond "Hello, Proxy!"
 }
