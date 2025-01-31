@@ -1,12 +1,3 @@
-{
-default_sni p.missiontools.app
-http_port 880
-https_port 4443
-}
-
-p.missiontools.app {
-respond "Hello http"
-}
 
 :880 {
 respond "Hello, 880!"
