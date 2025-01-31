@@ -2,7 +2,7 @@
 auto_https disable_redirects
 
 }
-:80 {
+p.missiontools.app:80 {
 
 respond "Hello, world!"
 }
