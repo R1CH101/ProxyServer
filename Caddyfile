@@ -1,4 +1,6 @@
-
+{
+auto_https off
+}
 :880 {
 respond "Hello, 880!"
 }
