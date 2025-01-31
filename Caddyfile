@@ -1,4 +1,4 @@
 localhost:8888 {
-	# UNAUTHENTICATED! USE ONLY FOR TESTING
-	forward_proxy
+
+respond "Hello, world!"
 }
