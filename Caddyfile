@@ -1,0 +1,4 @@
+p.missiontools.app {
+	# UNAUTHENTICATED! USE ONLY FOR TESTING
+	forward_proxy
+}
