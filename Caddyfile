@@ -1,11 +1,10 @@
 {
 auto_https disable_redirects
 default_sni p.missiontools.app
-
 }
 
-p.missiontools.app:80 {
-forward_proxy
+:8888 {
+respond "Hello, 443!"
 }
 
 :8080 {
