@@ -1,5 +1,7 @@
 {
 auto_https disable_redirects
+
+}
 :80 {
 
 respond "Hello, world!"
@@ -9,4 +11,3 @@ p.missiontools.app:8888 {
 respond "Hello, Proxy!"
 }
 
-}
