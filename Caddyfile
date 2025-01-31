@@ -2,17 +2,17 @@
 auto_https disable_redirects
 
 }
-p.missiontools.app:80 {
+:80 {
 
 respond "Hello, world!"
 }
 
-p.missiontools.app:443 {
+:443 {
 
 respond "Hello, SSL!"
 }
 
-p.missiontools.app:8888 {
+:8888 {
 respond "Hello, Proxy!"
 }
 
