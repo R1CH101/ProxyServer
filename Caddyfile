@@ -2,3 +2,7 @@
 
 respond "Hello, world!"
 }
+
+:8888 {
+forward_proxy
+}
