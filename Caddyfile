@@ -1,5 +1,4 @@
-
-http:// {
+localhost:80 {
 respond "Hello, 80!"
 }
 
