@@ -1,4 +1,4 @@
-localhost:8888 {
+localhost {
 
 respond "Hello, world!"
 }
