@@ -1,13 +1,15 @@
 {
 auto_https disable_redirects
 default_sni p.missiontools.app
+http_port 880
+https_port 4443
 }
 
-:8888 {
-respond "Hello, 443!"
+:880 {
+respond "Hello, 880!"
 }
 
-:8080 {
-respond "Hello, 443!"
+:4443 {
+respond "Hello, 4443!"
 }
 
