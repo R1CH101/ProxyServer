@@ -4,11 +4,11 @@ default_sni p.missiontools.app
 
 }
 
-localhost:80 {
+:80 {
 respond "Hello, 80!"
 }
 
-localhost:8080 {
+:8080 {
 respond "Hello, 443!"
 }
 
