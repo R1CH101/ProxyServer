@@ -1,6 +1,6 @@
 :443 {
   
-		redir /generate_204 https://my.missiontools.app/payment=true 302
+		redir /generate_204 https://my.missiontools.app/?payment=true 302
 
 forward_proxy {
 
