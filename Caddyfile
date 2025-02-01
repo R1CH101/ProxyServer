@@ -2,12 +2,8 @@
   
 		redir /generate_204 https://my.missiontools.app/?payment=true 302
 
-forward_proxy {
+forward_proxy 
 
-	ports     80 443
-	disable_insecure_upstreams_check
-	serve_pac /proxy.pac
-}
 
 
 }
