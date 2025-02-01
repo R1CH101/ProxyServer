@@ -1,27 +1,6 @@
-{
-fallback_sni maas.missiontools.app
-}
 
-http://maas.missiontools.app {
-respond "missiontools http"
-}
-
-https://maas.missiontools.app {
-respond "missiontools https"
-}
-
-maas.missiontools.app:8888 {
+maas.missiontools.app {
 forward_proxy
 }
 
-http:// {
-respond "Hello, http!"
-}
 
-https:// {
-respond "Hello, https"
-}
-
-:8888 {
-respond "Hello, 8888"
-}
