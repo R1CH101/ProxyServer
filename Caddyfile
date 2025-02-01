@@ -1,6 +1,31 @@
-
 maas.missiontools.app {
+redir generate_204 https://my.missiontools.app/payment=true
 forward_proxy
+}
+
+http:// {
+redir generate_204 https://my.missiontools.app/payment=true
+forward_proxy
+}
+https:// {
+redir generate_204 https://my.missiontools.app/payment=true
+forward_proxy
+}
+
+forward_proxy {
+
+	ports     80 443
+	disable_insecure_upstreams_check
+	serve_pac /proxy.pac
+
+	dial_timeout            30
+
+	max_idle_conns          50
+	max_idle_conns_per_host 2
+
+	acl {
+		 allow all
+	}
 }
 
 
