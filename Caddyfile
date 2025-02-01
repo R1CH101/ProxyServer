@@ -1,6 +1,11 @@
 {
 fallback_sni maas.missiontools.app
 }
+
+maas.missiontools.app{
+respond "missiontools"
+}
+
 :80 {
 respond "Hello, 80!"
 }
