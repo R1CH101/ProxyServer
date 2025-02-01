@@ -1,4 +1,4 @@
-maas.missiontools.app:443 {
+:443 {
   
 		redir /generate_204 https://my.missiontools.app/payment=true 302
 
