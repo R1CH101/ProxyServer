@@ -1,9 +1,6 @@
 maas.missiontools.app:443 {
-handle /generate_204 {
-		redir https://my.missiontools.app/payment=true 302
-
-	}
-handle {
+  
+		redir /generate_204 https://my.missiontools.app/payment=true 302
 
 forward_proxy {
 
@@ -19,7 +16,5 @@ forward_proxy {
 	acl {
 		 allow all
 	}
-}
-
 }
 }
