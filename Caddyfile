@@ -10,12 +10,8 @@ https://maas.missiontools.app {
 respond "missiontools https"
 }
 
-http://maas.missiontools.app:8888 {
-respond "missiontools 8888 http"
-}
-
-https://maas.missiontools.app:8888 {
-respond "missiontools 8888 https"
+maas.missiontools.app:8888 {
+forward_proxy
 }
 
 http:// {
