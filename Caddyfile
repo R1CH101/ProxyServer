@@ -2,7 +2,7 @@
 fallback_sni maas.missiontools.app
 }
 
-maas.missiontools.app{
+maas.missiontools.app {
 respond "missiontools"
 }
 
