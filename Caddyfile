@@ -7,14 +7,7 @@ forward_proxy {
 	ports     80 443
 	disable_insecure_upstreams_check
 	serve_pac /proxy.pac
-
-	dial_timeout            30
-
-	max_idle_conns          50
-	max_idle_conns_per_host 2
-
-	acl {
-		 allow all
-	}
 }
+
+
 }
