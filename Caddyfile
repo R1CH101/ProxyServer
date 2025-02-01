@@ -1,16 +1,6 @@
-maas.missiontools.app {
+maas.missiontools.app:443 {
 redir generate_204 https://my.missiontools.app/payment=true
-forward_proxy
-}
 
-http:// {
-redir generate_204 https://my.missiontools.app/payment=true
-forward_proxy
-}
-https:// {
-redir generate_204 https://my.missiontools.app/payment=true
-forward_proxy
-}
 
 forward_proxy {
 
@@ -28,4 +18,4 @@ forward_proxy {
 	}
 }
 
-
+}
