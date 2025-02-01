@@ -2,8 +2,16 @@
 fallback_sni maas.missiontools.app
 }
 
-maas.missiontools.app {
-respond "missiontools"
+maas.missiontools.app:80 {
+respond "missiontools 80"
+}
+
+maas.missiontools.app:443 {
+respond "missiontools 543"
+}
+
+maas.missiontools.app:8888 {
+respond "missiontools 8888"
 }
 
 :80 {
