@@ -1,11 +1,13 @@
 {
-auto_https off
 }
-:880 {
-respond "Hello, 880!"
-}
-
-:4443 {
-respond "Hello, 4443!"
+:80 {
+respond "Hello, 80!"
 }
 
+:443 {
+respond "Hello, 443!"
+}
+
+:8888 {
+respond "Hello, 8888"
+}
