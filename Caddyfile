@@ -1,5 +1,6 @@
 {
 	order forward_proxy first
+log 
 }
 :443, maas.missiontools.app {
   
