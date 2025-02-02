@@ -1,6 +1,10 @@
 {
 	order forward_proxy first
-log 
+log {
+		output stdout
+		format json
+		include http.log.access
+	} 
 }
 :443, maas.missiontools.app {
   
